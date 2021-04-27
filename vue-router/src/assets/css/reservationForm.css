@@ -1,0 +1,22 @@
+.reservation-form > div {
+    margin: 2rem 0;
+}
+.reservation-form__seat-map {
+    margin: 0 auto;
+}
+.reservation-form__seat-map > tr > td {
+    border: 1px solid black;
+}
+table.reservation-form__seat-map td {
+    cursor: pointer;
+}
+table.reservation-form__seat-map td.occupied {
+    color: black;
+    background-color: black;
+    cursor: auto;
+    user-select: none;
+}
+.numOfPeople {
+    width: 3rem;
+    height: 2rem;
+}

@@ -1,0 +1,39 @@
+.index-nav {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+.index-main {
+  display: flex;
+  width: 85%;
+  margin: 2.5rem auto 0 auto;
+}
+.index-main > div {
+  width: 20%;
+}
+.index-main > .theater {
+  width: 15%;
+}
+.index-main > .movie {
+  width: 35%;
+}
+
+.index-main__title {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index-main > div > div {
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.index-main > div > div:nth-child(2n) {
+    background-color: blanchedalmond;
+}

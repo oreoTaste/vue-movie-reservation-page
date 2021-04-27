@@ -1,0 +1,18 @@
+.confirm-form__id,
+.confirm-form__tel,
+.confirm-form__people,
+.confirm-form__seat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.confirm-form__tel {
+    margin-bottom: 2rem;
+}
+.confirm-form__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

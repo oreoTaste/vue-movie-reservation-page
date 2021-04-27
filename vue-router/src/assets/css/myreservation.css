@@ -1,0 +1,19 @@
+article.reservation-devider {
+    display: flex;
+}
+.reservation-left,
+.reservation-right {
+    width: 50%;
+}
+
+.left__movie-name,
+.left__movie-time,
+.left__total-price,
+.left__room {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
